@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-customer-tracker:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-customer-tracker" />
+          <element id="library" level="project" name="apache-tomcat-9.0" />
+          <element id="library" level="project" name="postgresql-42.3" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../../apache-tomcat-9.0.54-windows-x64/apache-tomcat-9.0.54" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/c3p0-0.9.5.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/hibernate-c3p0-5.4.32.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mchange-commons-java-0.2.19.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
